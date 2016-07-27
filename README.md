@@ -53,6 +53,7 @@ The available options are:
 - `locations: false` Store location information on each syntax node.
 - `ranges: false` Store the start and end character locations on each syntax
   node.
+- `luaVersion: '5.1'` Specify the Lua version.
 - `onCreateNode: null` A callback which will be invoked when a syntax node
   has been completed. The node which has been created will be passed as the
   only parameter.
